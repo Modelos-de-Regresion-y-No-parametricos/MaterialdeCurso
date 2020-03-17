@@ -1,0 +1,31 @@
+
+\newcommand{\ind}{\perp}
+
+\newcommand{\re}{\mathbb{R}}
+\newcommand{\prob}[1]{\mathbb P \! \left[ #1 \right]}
+\newcommand{\probc}[2]{\mathbb P \! \left[ #1 \, | #2 \right]}
+\newcommand{\esp}[1]{ \mathbb E \! \left[ #1 \right] }
+\newcommand{\espc}[2]{\mathbb E \! \left[ #1 | #2 \right]}
+%\newcommand{\espc}[2]{\ensuremath{\imf{\se}{\cond{#1}{#2}}}}
+
+\newcommand{\proint}[2]{\langle #1,#2\rangle}
+
+% Alan commands
+
+\newcommand{\indic}{\mathbbm{1}}
+
+\renewcommand{\d}{\mathrm d}
+
+\newcommand\restr[2]{{% we make the whole thing an ordinary symbol
+  \left.\kern-\nulldelimiterspace % automatically resize the bar with \right
+  #1 % the function
+  \vphantom{\big|} % pretend it's a little taller at normal size
+  \right|_{#2} % this is the delimiter
+  }}
+  
+\newcommand\eval[3]{{% we make the whole thing an ordinary symbol
+  \left.\kern-\nulldelimiterspace % automatically resize the bar with \right
+  #1 % the function
+  \vphantom{\big|} % pretend it's a little taller at normal size
+  \right|_{#2}^{#3} % this is the delimiter
+  }}
